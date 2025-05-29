@@ -1,0 +1,144 @@
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", monospace;
+}
+
+/* Header section */
+.header {
+    height: 42px;
+    display: flex;
+    background-color: #1F2937;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header li {
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+/* First section */
+
+.first-section {
+    min-height: 400px;
+    display: flex;
+    background-color: #1F2937;
+    flex: 1;
+    align-items: center;
+}
+
+.first-section-text {
+    min-width: 400px;
+    padding-left: 24px;
+}
+
+.first-section-image {
+    align-items: center;
+    margin-left: 128px;
+    justify-content: center;
+    padding-right: 24px;
+}
+
+.first-section-image img {
+    width: 480px;
+}
+
+.first-section-header {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.first-section-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* Second section */
+
+.second-section {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.image-cards-container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.image-card {
+    margin: 24px;
+}
+
+/* Third section */
+
+.third-section {
+    min-height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.quotation {
+    color: #1F2937;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    margin: 24px;
+
+}
+
+.attribution {
+    color: #1F2937;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+/* Fourth Section */
+
+.fourth-section {
+    min-height: 400px;
+    display: flex;
+    flex: 1;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+}
