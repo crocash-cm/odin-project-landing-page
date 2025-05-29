@@ -66,6 +66,10 @@ ul {
 }
 
 .first-section-image img {
+    border-radius: 25px;
+}
+
+.first-section-image img {
     width: 480px;
 }
 
@@ -84,6 +88,7 @@ ul {
 
 .second-section {
     min-height: 400px;
+    margin-top: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,10 +105,18 @@ ul {
     margin: 24px;
 }
 
+.image-card img {
+    width: 200px;
+    border-radius: 25px;
+    border: 24px;
+    border-color: #3882F6;
+}
+
 /* Third section */
 
 .third-section {
     min-height: 400px;
+    margin-top: 24px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -122,6 +135,7 @@ ul {
 
 .attribution {
     color: #1F2937;
+    font-weight: bold;
     margin-left: auto;
     margin-right: 12px;
 }
