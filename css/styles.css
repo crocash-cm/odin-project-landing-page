@@ -25,7 +25,7 @@ ul {
 .header li {
     margin-top: 8px;
     margin-left: 12px;
-    margin-right: 12px;
+    margin-right: 32px;
 }
 
 .header a {
@@ -39,7 +39,7 @@ ul {
     color: #F9FAF8;
     display: flex;
     margin-top: 6px;
-    margin-left: 12px;
+    margin-left: 38px;
     margin-right: auto;
 }
 
@@ -61,9 +61,8 @@ ul {
 .first-section-image {
     
     align-items: center;
-    margin-left: 128px;
     justify-content: center;
-    padding-right: 24px;
+    padding-right: 52px;
 }
 
 .first-section-image img {
