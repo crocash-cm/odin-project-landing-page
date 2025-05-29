@@ -1,1 +1,1 @@
-#Odin Project: Foundations, Landing Page
+# Odin Project: Foundations, Landing Page
