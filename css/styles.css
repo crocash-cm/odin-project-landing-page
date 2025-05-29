@@ -59,6 +59,7 @@ ul {
 }
 
 .first-section-image {
+    
     align-items: center;
     margin-left: 128px;
     justify-content: center;
@@ -76,11 +77,22 @@ ul {
 .first-section-header {
     font-size: 48px;
     color: #F9FAF8;
+    margin: 12px;
 }
 
 .first-section-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 12px;
+}
+
+.first-section-button button {
+    color: white;
+    width: 100px;
+    padding: 6px;
+    margin: 12px;
+    background-color: #3882F6;
+    border-radius: 25px;
 }
 
 
@@ -95,6 +107,13 @@ ul {
 
 }
 
+.second-section-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-left: 24px;
+}
+
 .image-cards-container {
     display: flex;
     justify-content: space-between;
@@ -103,13 +122,17 @@ ul {
 
 .image-card {
     margin: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .image-card img {
+    border: 6px solid #3882F6;
     width: 200px;
     border-radius: 25px;
-    border: 24px;
-    border-color: #3882F6;
 }
 
 /* Third section */
@@ -145,7 +168,35 @@ ul {
 .fourth-section {
     min-height: 400px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
+}
+
+.cta {
+    width: 900px;
+    border-radius: 25px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+}
+
+.cta-text {
+    margin-left: 124px;
+}
+
+.cta-button {
+    margin-left: auto;
+    margin-right: 124px;
+    margin-top: 46px;
+}
+
+.cta-button button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 24px;
+    border-radius: 12px;
+    width: 200px;
 }
 
 /* Footer */
