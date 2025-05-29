@@ -8,6 +8,7 @@
 /* Header section */
 .header {
     height: 42px;
+    padding-top: 24px;
     display: flex;
     background-color: #1F2937;
 }
