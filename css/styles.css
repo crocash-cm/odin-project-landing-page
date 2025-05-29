@@ -8,7 +8,7 @@
 /* Header section */
 .header {
     height: 42px;
-    padding-top: 24px;
+    padding-top: 18px;
     display: flex;
     background-color: #1F2937;
 }
@@ -55,7 +55,8 @@ ul {
 }
 
 .first-section-text {
-    min-width: 400px;
+    min-width: 280px;
+    max-width: 520px;
     padding-left: 24px;
 }
 
@@ -64,6 +65,7 @@ ul {
     align-items: center;
     justify-content: center;
     padding-right: 52px;
+    padding-left: 120px;
 }
 
 .first-section-image img {
