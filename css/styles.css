@@ -7,7 +7,7 @@
 
 /* Header section */
 .header {
-    height: 42px;
+    min-height: 68px;
     padding-top: 18px;
     display: flex;
     background-color: #1F2937;
