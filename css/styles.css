@@ -48,8 +48,8 @@ ul {
 
 .first-section {
     min-height: 400px;
-    display: flex;
     background-color: #1F2937;
+    display: flex;
     flex: 1;
     align-items: center;
     flex-wrap: wrap;
@@ -59,12 +59,13 @@ ul {
     min-width: 280px;
     max-width: 520px;
     padding-left: 24px;
+    margin-right: auto;
 }
 
 .first-section-image {
     
+    display: flex;
     align-items: center;
-    justify-content: center;
     padding-right: 52px;
     padding-left: 24px;
     
@@ -72,6 +73,7 @@ ul {
 
 .first-section-image img {
     border-radius: 25px;
+    max-width: 100%;
 }
 
 .first-section-image img {
