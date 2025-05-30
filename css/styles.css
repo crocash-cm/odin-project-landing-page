@@ -36,7 +36,7 @@ ul {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 1.25rem;
     color: #F9FAF8;
     display: flex;
     margin-top: 6px;
@@ -79,13 +79,13 @@ ul {
 }
 
 .first-section-header {
-    font-size: 48px;
+    font-size: 2.5rem;
     color: #F9FAF8;
     margin: 12px;
 }
 
 .first-section-subtext {
-    font-size: 18px;
+    font-size: 1.15rem;
     color: #E5E7EB;
     margin: 12px;
 }
@@ -112,7 +112,7 @@ ul {
 }
 
 .second-section-header {
-    font-size: 36px;
+    font-size: 2.15rem;
     color: #1F2937;
     font-weight: 900;
     margin-left: 24px;
@@ -157,7 +157,7 @@ ul {
 .quotation {
     color: #1F2937;
     max-width: 600px;
-    font-size: 36px;
+    font-size: 2.15rem;
     font-style:italic;
     font-weight: lighter;
     margin: 24px;
@@ -202,7 +202,7 @@ ul {
 .cta-button button {
     background-color: #3882F6;
     color: white;
-    font-size: 24px;
+    font-size: 1.15rem;
     border-radius: 12px;
     width: 200px;
 }
