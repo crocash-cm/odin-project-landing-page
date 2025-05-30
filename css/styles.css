@@ -57,7 +57,7 @@ ul {
 
 .first-section-text {
     min-width: 280px;
-    max-width: 520px;
+    max-width: 528px;
     padding-left: 24px;
     margin-right: auto;
 }
@@ -95,11 +95,17 @@ ul {
     margin: 12px;
 }
 
+.first-section-button
+{
+    display: flex;
+    justify-content: center;
+}
+
 .first-section-button button {
     color: white;
     width: 100px;
     padding: 6px;
-    margin: 12px;
+    margin-top: 12px;
     background-color: #3882F6;
     border-radius: 25px;
 }
