@@ -52,6 +52,7 @@ ul {
     background-color: #1F2937;
     flex: 1;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .first-section-text {
@@ -65,7 +66,7 @@ ul {
     align-items: center;
     justify-content: center;
     padding-right: 52px;
-    padding-left: 120px;
+    
 }
 
 .first-section-image img {
