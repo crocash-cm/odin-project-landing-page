@@ -189,10 +189,14 @@ ul {
     background-color: #3882F6;
     color: white;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta-text {
-    margin-left: 124px;
+    margin-left: 64px;
+    max-width: 400px;
 }
 
 .cta-button {
@@ -207,6 +211,7 @@ ul {
     font-size: 1.15rem;
     border-radius: 12px;
     width: 200px;
+    margin-bottom: 24px;
 }
 
 /* Footer */
