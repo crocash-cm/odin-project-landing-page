@@ -21,12 +21,12 @@ ul {
 .header ul {
     display: flex;
     list-style: none;
+    margin-right: 32px;
 }
 
 .header li {
     margin-top: 8px;
-    margin-left: 12px;
-    margin-right: 32px;
+    margin-left: 12px
 }
 
 .header a {
@@ -36,7 +36,7 @@ ul {
 }
 
 .logo {
-    font-size: 1.25rem;
+    font-size: 1.22rem;
     color: #F9FAF8;
     display: flex;
     margin-top: 6px;
