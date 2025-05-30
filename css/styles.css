@@ -66,8 +66,11 @@ ul {
     
     display: flex;
     align-items: center;
-    padding-right: 52px;
+    padding-right: 48px;
     padding-left: 24px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+
     
 }
 
